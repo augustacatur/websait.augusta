@@ -1,0 +1,74 @@
+html{
+    margin: 0;
+    padding: 0;
+} 
+.container{
+
+}
+.container-tata{
+    background-color:crimson;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-tata{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    
+}
+.li-tata{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+} 
+.li-tata:hover{
+    background-color: black;
+    transition: .5s ease-in-out;
+    transition-delay:  .3s;
+    border-radius: 8px;
+}
+.a-tata{
+    color: white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.container-catur{
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.a-catur{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 720px;
+    height:480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.img-catur{
+        width: 30%;
+        height: 30%;
+    }
+.container-hasmoro{
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        
+}
+.h1-hasmoro{
+font-size: 30px;
+}
